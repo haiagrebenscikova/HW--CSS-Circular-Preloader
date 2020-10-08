@@ -1,0 +1,35 @@
+body{background-color: #333;}
+#preloader{background-color: yellow;
+height: 200px;
+padding: 25px;
+width: 200px;
+margin-left: auto;
+margin-right: auto;}
+#preloader .big{border: 5px solid red;
+border-radius: 100px;
+height: 130px;
+width: 150px;
+border-top: none;
+border-bottom:none;
+padding-top: 20px;
+margin-left: 20px;
+margin-top: 13px;}
+.big .small{border: 5px solid blue;
+border-radius: 100px;
+height: 55px;
+width: 60px;
+margin: auto;
+padding: 25px;
+border-top: none;
+border-bottom: none;}
+.big{animation: circular1 1s infinite;}
+.small{animation: circular2 1s infinite;}
+@keyframes circular1 {
+    to{transform: rotate(0deg);}
+    from{transform: rotate(360deg);}}
+@keyframes circular2{
+    to{transform: rotate(360deg);}
+    from{transform: rotate(0deg);}}
+
+    
+

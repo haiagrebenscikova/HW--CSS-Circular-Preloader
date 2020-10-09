@@ -6,7 +6,9 @@ width: 200px;
 margin-left: auto;
 margin-right: auto;
 border-radius: 10px;}
-#preloader .big{border: 5px solid red;
+#preloader .big{border: 10px solid red;
+border-top-color: transparent;
+border-bottom-color: transparent;
 border-radius: 100px;
 height: 130px;
 width: 150px;
@@ -15,7 +17,9 @@ border-bottom:none;
 padding-top: 20px;
 margin-left: 20px;
 margin-top: 13px;}
-#preloader .big .small{border: 5px solid blue;
+#preloader .big .small{border: 10px solid blue;
+border-top-color: transparent;
+border-bottom-color: transparent;
 border-radius: 100px;
 height: 55px;
 width: 60px;
